@@ -1,5 +1,7 @@
 # custom
+artifacts/
 build/
+cache/
 
 # Logs
 logs

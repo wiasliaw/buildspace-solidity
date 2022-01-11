@@ -10,6 +10,7 @@ importers:
       '@nomiclabs/hardhat-ethers': ^2.0.0
       '@nomiclabs/hardhat-waffle': ^2.0.0
       chai: ^4.2.0
+      dotenv: ^11.0.0
       ethereum-waffle: ^3.0.0
       ethers: ^5.0.0
       hardhat: ^2.8.2
@@ -19,6 +20,7 @@ importers:
       '@nomiclabs/hardhat-ethers': 2.0.4_ethers@5.5.3+hardhat@2.8.2
       '@nomiclabs/hardhat-waffle': 2.0.1_01573b81839cc74a019344ac206cab09
       chai: 4.3.4
+      dotenv: 11.0.0
       ethereum-waffle: 3.4.0
       ethers: 5.5.3
 
@@ -5882,6 +5884,11 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
+  /dotenv/11.0.0:
+    resolution: {integrity: sha512-Fp/b504Y5W+e+FpCxTFMUZ7ZEQkQYF0rx+KZtmwixJxGQbLHrhCwo3FjZgNC8vIfrSi29PABNbMoCGD9YoiXbQ==}
+    engines: {node: '>=12'}
+    dev: true
+
   /dotignore/0.1.2:
     resolution: {integrity: sha512-UGGGWfSauusaVJC+8fgV+NVvBXkCTmVv7sk6nojDZZvuOUNGUy0Zk4UpHQD6EDjS0jpBwcACvH4eofvyzBcRDw==}
     hasBin: true
@@ -7228,6 +7235,18 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
+    dev: false
+
+  /follow-redirects/1.14.7_debug@4.3.3:
+    resolution: {integrity: sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dependencies:
+      debug: 4.3.3
     dev: false
 
   /for-each/0.3.3:
@@ -12917,7 +12936,7 @@ packages:
     dependencies:
       command-exists: 1.2.9
       commander: 3.0.2
-      follow-redirects: 1.14.7
+      follow-redirects: 1.14.7_debug@4.3.3
       fs-extra: 0.30.0
       js-sha3: 0.8.0
       memorystream: 0.3.1

@@ -1,3 +1,5 @@
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, ".env") });
 require("@nomiclabs/hardhat-waffle");
 
 // This is a sample Hardhat task. To learn how to create your own go to
@@ -18,4 +20,10 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  */
 module.exports = {
   solidity: "0.8.4",
+  networks: {
+    rinkeby: {
+      url: `https://eth-rinkeby.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`,
+      accounts: [`${process.env.PRIVATE_KEY}`],
+    },
+  },
 };
