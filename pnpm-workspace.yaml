@@ -1,0 +1,3 @@
+packages:
+  - 'wave-contract'
+  - 'wave-frontend'
