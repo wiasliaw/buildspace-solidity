@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/buildspace-solidity/static/css/main.073c9b0a.css",
+    "main.js": "/buildspace-solidity/static/js/main.a4ed6b44.js",
+    "static/js/121.50b67019.chunk.js": "/buildspace-solidity/static/js/121.50b67019.chunk.js",
+    "static/media/logo.svg": "/buildspace-solidity/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/buildspace-solidity/index.html",
+    "main.073c9b0a.css.map": "/buildspace-solidity/static/css/main.073c9b0a.css.map",
+    "main.a4ed6b44.js.map": "/buildspace-solidity/static/js/main.a4ed6b44.js.map",
+    "121.50b67019.chunk.js.map": "/buildspace-solidity/static/js/121.50b67019.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a4ed6b44.js"
+  ]
+}
